@@ -15,6 +15,19 @@ enabled = true
 #binding = "kv"			#kv绑定名默认不可修改
 #id = ""					#kv数据库id
 
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "db"
+database_name = "cloud-mail-db"
+database_id = "ba6e9386-61a6-47e6-bd67-10516515a2c4"
+
+# KV 命名空间绑定
+[[kv_namespaces]]
+binding = "kv"
+id = "b15788ea286c4ac5a5d5a886bb6bebe9"
+
+
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
 #bucket_name = ""		#r2对象存储桶的名字
